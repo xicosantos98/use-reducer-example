@@ -1,0 +1,112 @@
+{
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "document": true,
+        "fetch": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "curly": [
+            2,
+            "multi-or-nest"
+        ],
+        "comma-dangle": [
+            2,
+            "never"
+        ],
+        "arrow-parens": [
+            2,
+            "as-needed"
+        ],
+        "nonblock-statement-body-position": [
+            2,
+            "below"
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "default-case": "off",
+        "no-param-reassign": 0,
+        "no-plusplus": 0,
+        "radix": [
+            "error",
+            "as-needed"
+        ],
+        "no-underscore-dangle": 0,
+        "func-names": [
+            "error",
+            "never"
+        ],
+        "max-len": [
+            "error",
+            140
+        ],
+        "no-restricted-syntax": [
+            "error",
+            "WithStatement"
+        ],
+        "newline-per-chained-call": 0,
+        "operator-linebreak": [
+            "error",
+            "after"
+        ],
+        "no-throw-literal": "off",
+        "no-prototype-builtins": "off",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-single"
+        ],
+        "camelcase": "off",
+        "react/jsx-uses-vars": [
+            "warn"
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            4
+        ],
+        "react/prop-types": "off",
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
+        "react/jsx-tag-spacing": [
+            "error",
+            {
+                "closingSlash": "never",
+                "beforeSelfClosing": "always",
+                "afterOpening": "never",
+                "beforeClosing": "allow"
+            }
+        ],
+        "react/jsx-one-expression-per-line": [
+            "error",
+            {
+                "allow": "single-child"
+            }
+        ],
+        "react/jsx-key": "off",
+        "react/jsx-no-target-blank": "off"
+    }
+}
